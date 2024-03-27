@@ -7,7 +7,7 @@ import java.util.*;
 class Huffman {
 
     public static void main(String[] args) {
-        char[] charArray = readFile("/home/don/repos/huffman/src/data/input.txt");
+        char[] charArray = readFile("/home/don/repos/huffman/src/data/input.txt" );
         // Count the frequency of each character
         int[] freq = countFrequency(charArray);
         // Create a map to store the frequency of each character
